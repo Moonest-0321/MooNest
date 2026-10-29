@@ -1,0 +1,69 @@
+{
+ "report": {
+  "report_id": "T26C-010085",
+  "event": "測試颱風 丙（測試資料）",
+  "issued_at": "2026-10-18T19:58:00+08:00",
+  "batch_id": "T26C-B0004",
+  "place": {
+   "county": "台南市",
+   "town": "佳里區",
+   "lot": "○○段 6***"
+  },
+  "crop": "水稻",
+  "hazard": "淹水",
+  "area_m2": 3000,
+  "inputs": [
+   "TEST-S1-20261016-8949",
+   "TEST-S2-20261010-6714"
+  ],
+  "checks": {
+   "影像條件": "通過",
+   "觀測完整": "通過",
+   "多源一致": "通過",
+   "申報一致": "通過",
+   "生產事實": "通過"
+  },
+  "loss_pct": {
+   "p10": 64,
+   "p50": 71,
+   "p90": 78
+  },
+  "grade": "A達標",
+  "reason": null,
+  "category_level": "甲",
+  "handling": "自動申報＋書面審核",
+  "model_version": "skyaide-2026.10.1",
+  "environment_hash": "1ce09169f724eb2be2d337037df3925c",
+  "note": "以公所認定為準"
+ },
+ "signature": "d8f5dc5da1e27e138d6f602db381e146181167d2b30b1804b1e38a33aa40754608574e9b99ee50d0102c4c11b5e68a65c328cbd0fb08a994827dbe007a442304",
+ "public_key": "496006052f38a46410e90057cc29371236a333c12269b9aa53df137eafcfa840",
+ "merkle_proof": [
+  {
+   "side": "L",
+   "hash": "d1d1b77d3606e1ec7e67c125a26dc2cc3c50b04b17ea1ee617df76280dc85740"
+  },
+  {
+   "side": "R",
+   "hash": "a327c38242b4269b338a869152364ac60c0e272b404d909aced9b694543e6b3d"
+  },
+  {
+   "side": "R",
+   "hash": "6c86ef987a8101ebd40c8d560f73d55bbef6d956bd865de39e5727c4299a3254"
+  },
+  {
+   "side": "R",
+   "hash": "156afb9311fec666e8d3cfb0b1838859c966a3e671dd29ffb6ba724c99eff796"
+  },
+  {
+   "side": "L",
+   "hash": "fc0ee4b28fcbed764a30e8245ee2a60f85b866c2b4cad7278b5151bb9145b721"
+  },
+  {
+   "side": "L",
+   "hash": "d860911dcc4aaf8926eb8e556d3d828aa3b598fa9e7e7ded3382edb330356c48"
+  }
+ ],
+ "batch_root": "22cadc518627405bb4e0bc0a689e76d8b25539f10a0b4ad43c3cd3f750493daa",
+ "verify_code": "T26C-010085-5bd2a5d1099b2d5d"
+}

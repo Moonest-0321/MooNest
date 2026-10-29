@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>天相星 公開監看</title>
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<header class="top">
+  <div class="in">
+    <div class="brand">天相星 公開監看<small>農業災害衛星分級的全局資訊</small></div>
+    <span class="spacer"></span>
+    <div class="role" role="group" aria-label="檢視身分">
+      <button data-role="public">公眾版</button>
+      <button data-role="auth">授權監察版</button>
+    </div>
+  </div>
+</header>
+<nav class="tabs" aria-label="主選單"><div class="in" id="nav"></div></nav>
+<div class="notice"><div class="in" id="notice"></div></div>
+<main id="main"></main>
+<div class="foot">原型頁面。案件、件數、金額、等級皆為測試資料；「影像比對」使用真實衛星影像：Contains modified Copernicus Sentinel data 2024–2025, processed by Microsoft Planetary Computer。鄉鎮界線：內政部國土測繪中心（經 taiwan-atlas 整理）。</div>
+<div class="tip" id="tip"></div>
+<script src="data/map.js"></script>
+<script src="data/oversight.js"></script>
+<script src="data/imagery.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+ "report": {
+  "report_id": "T26C-001776",
+  "event": "測試颱風 丙（測試資料）",
+  "issued_at": "2026-10-18T07:43:00+08:00",
+  "batch_id": "T26C-B0005",
+  "place": {
+   "county": "雲林縣",
+   "town": "元長鄉",
+   "lot": "○○段 3***"
+  },
+  "crop": "蔬菜",
+  "hazard": "淹水",
+  "area_m2": 2700,
+  "inputs": [
+   "TEST-S1-20261016-8022",
+   "TEST-S2-20261006-3958"
+  ],
+  "checks": {
+   "影像條件": "未通過",
+   "觀測完整": "通過",
+   "多源一致": "通過",
+   "申報一致": "通過",
+   "生產事實": "通過"
+  },
+  "loss_pct": null,
+  "grade": "C缺失",
+  "reason": "像素不足",
+  "category_level": "乙",
+  "handling": "到場確認",
+  "model_version": "skyaide-2026.10.1",
+  "environment_hash": "1ce09169f724eb2be2d337037df3925c",
+  "note": "以公所認定為準"
+ },
+ "signature": "99bd571b57bdaded929365c8d6c05d0716ea3f3b769d156377c8cc110276d47de80a89ed298b9b8a89f975c763d8b68335d38489bebdb9134804b2f8da91a70c",
+ "public_key": "496006052f38a46410e90057cc29371236a333c12269b9aa53df137eafcfa840",
+ "merkle_proof": [
+  {
+   "side": "R",
+   "hash": "10d57b3410a02a6d25201855644fc1acde517266034a02224d352cd29b9a2729"
+  },
+  {
+   "side": "R",
+   "hash": "3be1934b05e225e302c7d45be55150aa1fde2a4e4fff07660a5646c1b95bb71e"
+  },
+  {
+   "side": "L",
+   "hash": "4f320011bf12e488b6398f4a6620ea4dfbfb3b85c218870e60e37f7db1e9d925"
+  },
+  {
+   "side": "L",
+   "hash": "233ba6f6ecc49bf0d2425dfa5363af07f6930413531089ae63a0a2da9189458a"
+  },
+  {
+   "side": "R",
+   "hash": "3e529ad4846fe0aa8486e77a5176ee0f90c66d38d02957f0a298168618890f9b"
+  },
+  {
+   "side": "R",
+   "hash": "749493755a9dc1f578347b68bf2ec8e441192170cda9a9409d02e987de5fa015"
+  },
+  {
+   "side": "L",
+   "hash": "3ceb4a612800b7d091d9090d85de2070fc1749f39b37aee8f515b3fe6ae0b838"
+  }
+ ],
+ "batch_root": "f5b861ab71017ef3cc45fa998ce58585208a842c85fe3785ca2f59b9ff8b2e07",
+ "verify_code": "T26C-001776-298836ecf115ba94"
+}

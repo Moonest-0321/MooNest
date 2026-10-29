@@ -1,0 +1,73 @@
+{
+ "report": {
+  "report_id": "T26C-000911",
+  "event": "測試颱風 丙（測試資料）",
+  "issued_at": "2026-10-18T13:04:00+08:00",
+  "batch_id": "T26C-B0010",
+  "place": {
+   "county": "雲林縣",
+   "town": "口湖鄉",
+   "lot": "○○段 3***"
+  },
+  "crop": "蔬菜",
+  "hazard": "淹水",
+  "area_m2": 1900,
+  "inputs": [
+   "TEST-S1-20261015-6529",
+   "TEST-S2-20261009-6374"
+  ],
+  "checks": {
+   "影像條件": "通過",
+   "觀測完整": "通過",
+   "多源一致": "通過",
+   "申報一致": "通過",
+   "生產事實": "通過"
+  },
+  "loss_pct": {
+   "p10": 15,
+   "p50": 22,
+   "p90": 29
+  },
+  "grade": "B邊緣",
+  "reason": null,
+  "category_level": "乙",
+  "handling": "到場確認",
+  "model_version": "skyaide-2026.10.1",
+  "environment_hash": "1ce09169f724eb2be2d337037df3925c",
+  "note": "以公所認定為準"
+ },
+ "signature": "32b31b4e8edff890c8f2d2044be0c1553e23e6e45c3a859463d13efdd140abcc9c833f9c96713240817a54a88e440818ff858378b2b17aa937092384d133ad03",
+ "public_key": "496006052f38a46410e90057cc29371236a333c12269b9aa53df137eafcfa840",
+ "merkle_proof": [
+  {
+   "side": "L",
+   "hash": "58108ff2d150501b500059bb3fabe72a792766d189f3d924c56690cc7a50b0bd"
+  },
+  {
+   "side": "R",
+   "hash": "8fd5cf5fd365b8620a3fde1e0aca06eade62a6b7cbc549ea54d5445cbf68fc16"
+  },
+  {
+   "side": "R",
+   "hash": "e7c4e035ac0b1f2784092bd2cce667d162ad00869d41cd5c913834bec7e05ef9"
+  },
+  {
+   "side": "R",
+   "hash": "1ea9d6741f4809f103835e4b28322c3fb83f10a70ca5bab168ede96fb687b36b"
+  },
+  {
+   "side": "L",
+   "hash": "696b1364d13853f9ee0e18e90c41ba1254040e8bdc1582671839cda197e171d9"
+  },
+  {
+   "side": "L",
+   "hash": "01b7710281a3e6b3f37bc84bf67984c1338d0d6870f74a6aaca2f7dfc109cc28"
+  },
+  {
+   "side": "R",
+   "hash": "7c57a348a714d1a098b70167ca593270778dac4c96cd532e614fc943f90e659b"
+  }
+ ],
+ "batch_root": "66bd1727c7fe0cc5ca8c2b51d32d33d1054eed516ae0a84dfb8fd465a390afb5",
+ "verify_code": "T26C-000911-5c2d4e0924d84006"
+}
